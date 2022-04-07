@@ -25,7 +25,7 @@ namespace WindowsFormsApp1
             upgrades = upgrades + 10;
             if (upgrades == 10)
             {
-                MessageBox.Show("You have found the first weapon! +10 Points, your Weapon is level one, find more to level up!");
+                MessageBox.Show("You have found the first weapon! You obtained a Swift Slayer +10 Points, your Weapon is level one, find more to level up!");
             }
         }
 
@@ -36,7 +36,7 @@ namespace WindowsFormsApp1
             upgrades = upgrades - 10;
             if (upgrades <= 0)
             {
-                MessageBox.Show("You have hit a crossbowman enemey! -10 Points, It takes time to be an Assassin...");
+                MessageBox.Show("You have hit a crossbowman enemey! -10 Points, It takes time to be an Assassin, you have two more lives...");
             }
         }
 
@@ -49,7 +49,7 @@ namespace WindowsFormsApp1
             upgrades = upgrades + 10;
             if (upgrades >= 0)
             {
-                MessageBox.Show("You have found the second weapon! +10 Points, your Weapon is level 10, find more to level up!");
+                MessageBox.Show("You have found the second weapon! You have obtained Nikolaos's Sword! +10 Points, your Weapon is level 10, find more to level up!");
             }
         }
 
@@ -60,10 +60,21 @@ namespace WindowsFormsApp1
             upgrades = upgrades + 10;
             if (upgrades >= -50)
             {
-                MessageBox.Show("You have found the second weapon! +10 Points, your Weapon is level 10, find more to level up!");
+                MessageBox.Show("You have found the third weapon! You have obtained the Legendary Drinker of Light! +23 Points, your Weapon is level 23, find more to level up!");
             }
         }
 
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
+            // fifth box
+            pictureBox5.Image = Properties.Resources._99f9eeafd86b05c597a1ef3ee61d3c21__1_1;
+            upgrades = upgrades + 10;
+            if (upgrades >= -50)
+            {
+                MessageBox.Show("You have found the fourth weapon! You have obtained the Worship Sword! +23 Points, your Weapon is level 23, find more to level up!");
+            }
+        }
     }
     }
+ 
 
