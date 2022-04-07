@@ -63,6 +63,26 @@ namespace WindowsFormsApp1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _83e24cdf4e16d78ab312689945e0922c {
+            get {
+                object obj = ResourceManager.GetObject("83e24cdf4e16d78ab312689945e0922c", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _956786e336963eb14405e52bf535408b {
+            get {
+                object obj = ResourceManager.GetObject("956786e336963eb14405e52bf535408b", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap bebcae4035dd853fea00368f46538ec1 {
             get {
                 object obj = ResourceManager.GetObject("bebcae4035dd853fea00368f46538ec1", resourceCulture);

@@ -95,5 +95,11 @@
   <ItemGroup>
     <None Include="Resources\ezgif.com-gif-maker %281%29.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\956786e336963eb14405e52bf535408b.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\83e24cdf4e16d78ab312689945e0922c.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

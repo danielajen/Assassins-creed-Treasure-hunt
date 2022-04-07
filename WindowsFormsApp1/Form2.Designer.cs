@@ -83,6 +83,7 @@
             // 
             // pictureBox3
             // 
+            this.pictureBox3.BackgroundImage = global::WindowsFormsApp1.Properties.Resources._956786e336963eb14405e52bf535408b;
             this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
             this.pictureBox3.Location = new System.Drawing.Point(570, 91);
@@ -90,9 +91,11 @@
             this.pictureBox3.Size = new System.Drawing.Size(96, 91);
             this.pictureBox3.TabIndex = 2;
             this.pictureBox3.TabStop = false;
+            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
             // 
             // pictureBox4
             // 
+            this.pictureBox4.BackgroundImage = global::WindowsFormsApp1.Properties.Resources._83e24cdf4e16d78ab312689945e0922c;
             this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
             this.pictureBox4.Location = new System.Drawing.Point(284, 216);
@@ -100,6 +103,7 @@
             this.pictureBox4.Size = new System.Drawing.Size(96, 91);
             this.pictureBox4.TabIndex = 3;
             this.pictureBox4.TabStop = false;
+            this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
             // 
             // pictureBox5
             // 
