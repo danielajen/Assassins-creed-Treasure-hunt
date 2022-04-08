@@ -121,22 +121,43 @@
   <data name="99f9eeafd86b05c597a1ef3ee61d3c21 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\99f9eeafd86b05c597a1ef3ee61d3c21 (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="enemy1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ezgif.com-gif-maker (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="bebcae4035dd853fea00368f46538ec1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bebcae4035dd853fea00368f46538ec1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cleopatra" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cleopatra.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_1519394473355" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\_1519394473355.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="eaaf917e116f1058aefe5ce3f7e4f8cb1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\eaaf917e116f1058aefe5ce3f7e4f8cb1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="eaaf917e116f1058aefe5ce3f7e4f8cb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\eaaf917e116f1058aefe5ce3f7e4f8cb.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1da83a21fa35b2dfb76514e611af1a2c" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1da83a21fa35b2dfb76514e611af1a2c.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="956786e336963eb14405e52bf535408b" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\956786e336963eb14405e52bf535408b.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="83e24cdf4e16d78ab312689945e0922c1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\83e24cdf4e16d78ab312689945e0922c1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="enemy1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ezgif.com-gif-maker (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="99f9eeafd86b05c597a1ef3ee61d3c21 (1)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\99f9eeafd86b05c597a1ef3ee61d3c21 (1)1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bbd22d3eed8a78e10c683ebc79eb317c" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bbd22d3eed8a78e10c683ebc79eb317c.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="83e24cdf4e16d78ab312689945e0922c" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\83e24cdf4e16d78ab312689945e0922c.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="bebcae4035dd853fea00368f46538ec1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bebcae4035dd853fea00368f46538ec1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="484066907_preview_Seeker" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\484066907_preview_Seeker.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="99f9eeafd86b05c597a1ef3ee61d3c21 (1)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\99f9eeafd86b05c597a1ef3ee61d3c21 (1)1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="brute" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\brute.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

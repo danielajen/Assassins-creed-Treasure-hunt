@@ -41,6 +41,7 @@
             this.pictureBox11 = new System.Windows.Forms.PictureBox();
             this.pictureBox12 = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -57,7 +58,6 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.bebcae4035dd853fea00368f46538ec1;
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(281, 91);
@@ -70,10 +70,8 @@
             // 
             // pictureBox2
             // 
-            this.pictureBox2.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.enemy1;
             this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.InitialImage = global::WindowsFormsApp1.Properties.Resources.enemy1;
             this.pictureBox2.Location = new System.Drawing.Point(424, 91);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(96, 91);
@@ -83,7 +81,6 @@
             // 
             // pictureBox3
             // 
-            this.pictureBox3.BackgroundImage = global::WindowsFormsApp1.Properties.Resources._956786e336963eb14405e52bf535408b;
             this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
             this.pictureBox3.Location = new System.Drawing.Point(570, 91);
@@ -95,7 +92,6 @@
             // 
             // pictureBox4
             // 
-            this.pictureBox4.BackgroundImage = global::WindowsFormsApp1.Properties.Resources._83e24cdf4e16d78ab312689945e0922c;
             this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
             this.pictureBox4.Location = new System.Drawing.Point(284, 216);
@@ -114,6 +110,7 @@
             this.pictureBox6.Size = new System.Drawing.Size(96, 91);
             this.pictureBox6.TabIndex = 5;
             this.pictureBox6.TabStop = false;
+            this.pictureBox6.Click += new System.EventHandler(this.pictureBox6_Click_1);
             // 
             // pictureBox7
             // 
@@ -124,6 +121,7 @@
             this.pictureBox7.Size = new System.Drawing.Size(96, 91);
             this.pictureBox7.TabIndex = 6;
             this.pictureBox7.TabStop = false;
+            this.pictureBox7.Click += new System.EventHandler(this.pictureBox7_Click);
             // 
             // pictureBox8
             // 
@@ -134,6 +132,7 @@
             this.pictureBox8.Size = new System.Drawing.Size(96, 91);
             this.pictureBox8.TabIndex = 7;
             this.pictureBox8.TabStop = false;
+            this.pictureBox8.Click += new System.EventHandler(this.pictureBox8_Click);
             // 
             // pictureBox9
             // 
@@ -144,6 +143,7 @@
             this.pictureBox9.Size = new System.Drawing.Size(96, 91);
             this.pictureBox9.TabIndex = 8;
             this.pictureBox9.TabStop = false;
+            this.pictureBox9.Click += new System.EventHandler(this.pictureBox9_Click);
             // 
             // pictureBox10
             // 
@@ -177,7 +177,6 @@
             // 
             // pictureBox5
             // 
-            this.pictureBox5.BackgroundImage = global::WindowsFormsApp1.Properties.Resources._99f9eeafd86b05c597a1ef3ee61d3c21__1_1;
             this.pictureBox5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
             this.pictureBox5.Location = new System.Drawing.Point(426, 215);
@@ -185,6 +184,19 @@
             this.pictureBox5.Size = new System.Drawing.Size(96, 91);
             this.pictureBox5.TabIndex = 14;
             this.pictureBox5.TabStop = false;
+            this.pictureBox5.Click += new System.EventHandler(this.pictureBox5_Click_1);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label1.Font = new System.Drawing.Font("Monotype Corsiva", 36F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(189, 10);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(632, 57);
+            this.label1.TabIndex = 15;
+            this.label1.Text = "Find The Armour and The Weapons";
             // 
             // Form2
             // 
@@ -193,6 +205,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(861, 494);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox5);
             this.Controls.Add(this.pictureBox12);
             this.Controls.Add(this.pictureBox11);
@@ -220,6 +233,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -237,5 +251,6 @@
         private System.Windows.Forms.PictureBox pictureBox11;
         private System.Windows.Forms.PictureBox pictureBox12;
         private System.Windows.Forms.PictureBox pictureBox5;
+        private System.Windows.Forms.Label label1;
     }
 }

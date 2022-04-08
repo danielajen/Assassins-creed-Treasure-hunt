@@ -63,9 +63,9 @@ namespace WindowsFormsApp1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap _83e24cdf4e16d78ab312689945e0922c {
+        internal static System.Drawing.Bitmap _1519394473355 {
             get {
-                object obj = ResourceManager.GetObject("83e24cdf4e16d78ab312689945e0922c", resourceCulture);
+                object obj = ResourceManager.GetObject("_1519394473355", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -73,9 +73,29 @@ namespace WindowsFormsApp1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap _83e24cdf4e16d78ab312689945e0922c1 {
+        internal static System.Drawing.Bitmap _1da83a21fa35b2dfb76514e611af1a2c {
             get {
-                object obj = ResourceManager.GetObject("83e24cdf4e16d78ab312689945e0922c1", resourceCulture);
+                object obj = ResourceManager.GetObject("1da83a21fa35b2dfb76514e611af1a2c", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _484066907_preview_Seeker {
+            get {
+                object obj = ResourceManager.GetObject("484066907_preview_Seeker", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _83e24cdf4e16d78ab312689945e0922c {
+            get {
+                object obj = ResourceManager.GetObject("83e24cdf4e16d78ab312689945e0922c", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -113,9 +133,59 @@ namespace WindowsFormsApp1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap bbd22d3eed8a78e10c683ebc79eb317c {
+            get {
+                object obj = ResourceManager.GetObject("bbd22d3eed8a78e10c683ebc79eb317c", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap bebcae4035dd853fea00368f46538ec1 {
             get {
                 object obj = ResourceManager.GetObject("bebcae4035dd853fea00368f46538ec1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap brute {
+            get {
+                object obj = ResourceManager.GetObject("brute", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap cleopatra {
+            get {
+                object obj = ResourceManager.GetObject("cleopatra", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap eaaf917e116f1058aefe5ce3f7e4f8cb {
+            get {
+                object obj = ResourceManager.GetObject("eaaf917e116f1058aefe5ce3f7e4f8cb", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap eaaf917e116f1058aefe5ce3f7e4f8cb1 {
+            get {
+                object obj = ResourceManager.GetObject("eaaf917e116f1058aefe5ce3f7e4f8cb1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
