@@ -15,6 +15,7 @@ namespace WindowsFormsApp1
         int weaponsfound = 0;
         int armourfound = 10;
         int lives = 3;
+        int points = 0;
 
         public Form2()
         {
@@ -26,19 +27,20 @@ namespace WindowsFormsApp1
             // first box 1ST WEAPON
             pictureBox1.Image = Properties.Resources.bebcae4035dd853fea00368f46538ec1;
             weaponsfound = weaponsfound + 1;
-            if (weaponsfound == 1)
+            points = points + 10;
+            if (weaponsfound == 1 && points == 10)
             {
-                MessageBox.Show("You have found your first weapon! You obtained a Swift Slayer +10 Points. This is an essential weapon, find 3 more to level up your overall!");
+                MessageBox.Show("You have found your first weapon! You obtained a Swift Slayer +10 Points. Your points are at 10! This is an essential weapon, find 3 more to level up your overall!");
             }
-            else if (weaponsfound == 2)
+            else if (weaponsfound == 2 && points == 20)
             {
-                MessageBox.Show("You have found your second weapon! You obtained a Swift Slayer +10 Points. This is an essential weapon, find 2 more to level up your overall!");
+                MessageBox.Show("You have found your second weapon! You obtained a Swift Slayer +10 Points. Your points are at 20! This is an essential weapon, find 2 more to level up your overall!");
             }
-            else if (weaponsfound == 3)
+            else if (weaponsfound == 3 && points == 30)
             {
-                MessageBox.Show("You have found your third weapon! You obtained a Swift Slayer +10 Points. This is an essential weapon, find 1 more to level up your overall!");
+                MessageBox.Show("You have found your third weapon! You obtained a Swift Slayer +10 Points. Your points are at 30! This is an essential weapon, find 1 more to level up your overall!");
             }
-            else if (weaponsfound == 4)
+            else if (weaponsfound == 4 && points == 40)
             {
                 MessageBox.Show("W! Congrats, you are now an equipped Assassin! You obtained a Swift Slayer. This is an essential weapon for battles, that's why their is no designated level for it. Hope to See you on the field soon Assassin!");
                 Application.Exit();
@@ -73,19 +75,20 @@ namespace WindowsFormsApp1
             // third box 2ND WEAPON
             pictureBox3.Image = Properties.Resources._956786e336963eb14405e52bf535408b;
             weaponsfound = weaponsfound + 1;
-            if (weaponsfound == 1)
+            points = points + 10;
+            if (weaponsfound == 1 && points == 10)
             {
-                MessageBox.Show("You have found your very first weapon! You have obtained Nikolaos's Sword! +10 Points, your Weapon is level 10, find 3 more to level up your overall!");
+                MessageBox.Show("You have found your very first weapon! You have obtained Nikolaos's Sword! You're now at 10 points! your Weapon is level 10, find 3 more to level up your overall!");
             }
-            else if (weaponsfound == 2)
+            else if (weaponsfound == 2 && points == 20)
             {
-                MessageBox.Show("You have found your second weapon! You have obtained Nikolaos's Sword! +10 Points, your Weapon is level 10, find 2 more to level up your overall!");
+                MessageBox.Show("You have found your second weapon! You have obtained Nikolaos's Sword! Your points are at 20! your Weapon is level 10, find 2 more to level up your overall!");
             }
-            else if (weaponsfound == 3)
+            else if (weaponsfound == 3 && points == 30)
             {
-                MessageBox.Show("You have found your third weapon! You have obtained Nikolaos's Sword! +10 Points, your Weapon is level 10, find 1 more to level up your overall!");
+                MessageBox.Show("You have found your third weapon! You have obtained Nikolaos's Sword! Your points are at 30! your Weapon is level 10, find 1 more to level up your overall!");
             }
-            else if (weaponsfound == 4)
+            else if (weaponsfound == 4 && points == 40)
             {
                 MessageBox.Show("W! Congrats, you are now an equipped Assassin! You obtained Nikolaos's Sword. This Sword can do a lot of damage to enemies (+275%)! Hope to See you on the field soon Assassin!");
                 Application.Exit();
@@ -97,19 +100,20 @@ namespace WindowsFormsApp1
             // fourth box THIRD WEAPON
             pictureBox4.Image = Properties.Resources._83e24cdf4e16d78ab312689945e0922c;
             weaponsfound = weaponsfound + 1;
-            if (weaponsfound == 1)
+            points = points + 10;
+            if (weaponsfound == 1 && points == 10)
             {
-                MessageBox.Show("You have found your very first weapon! You have obtained the Legendary Drinker of Light! +23 Points, your Weapon is level 23, find 3 more to level up your overall!");
+                MessageBox.Show("You have found your very first weapon! You have obtained the Legendary Drinker of Light! Your points are at 10! Your Weapon is level 23, find 3 more to level up your overall!");
             }
-            else if (weaponsfound == 2)
+            else if (weaponsfound == 2 && points == 20)
             {
-                MessageBox.Show("You have found your second weapon! You have obtained the Legendary Drinker of Light! +23 Points, your Weapon is level 23, find 2 more to level up your overall!");
+                MessageBox.Show("You have found your second weapon! You have obtained the Legendary Drinker of Light! Your points are now at 20! your Weapon is level 23, find 2 more to level up your overall!");
             }
-            else if (weaponsfound == 3)
+            else if (weaponsfound == 3 && points == 30)
             {
-                MessageBox.Show("You have found your third weapon! You have obtained the Legendary Drinker of Light! +23 Points, your Weapon is level 23, find 1 more to level up your overall!");
+                MessageBox.Show("You have found your third weapon! You have obtained the Legendary Drinker of Light! Your points are now at 30! your Weapon is level 23, find 1 more to level up your overall!");
             }
-            else if (weaponsfound == 4)
+            else if (weaponsfound == 4 && points == 40)
             {
                 MessageBox.Show("W! Congrats, you are now an equipped Assassin! You obtained The Legendary Drinker of Light. This is a heavy bladed weapon that Assassins like you need! Hope to See you on the field soon Assassin!");
                 Application.Exit();
@@ -121,19 +125,20 @@ namespace WindowsFormsApp1
             // fifth box FOURTH WEAPON
             pictureBox5.Image = Properties.Resources._99f9eeafd86b05c597a1ef3ee61d3c21__1_;
             weaponsfound = weaponsfound + 1;
-            if (weaponsfound == 1)
+            points = points + 10;
+            if (weaponsfound == 1 && points == 10)
             {
-                MessageBox.Show("You have found your very first weapon! You have obtained the Worship Sword! +26 Points, your Weapon is level 26, find 3 more to level up your overall!");
+                MessageBox.Show("You have found your very first weapon! You have obtained the Worship Sword! Your Weapon is level 26, Your points are at 10! Find 3 more to level up your overall!");
             }
-            else if (weaponsfound == 2)
+            else if (weaponsfound == 2 && points == 20)
             {
-                MessageBox.Show("You have found your second weapon! You have obtained the Worship Sword! +26 Points, your Weapon is level 26, find 2 more to level up your overall!");
+                MessageBox.Show("You have found your second weapon! You have obtained the Worship Sword! +26 Points, Your points are at 20! Your Weapon is level 26, find 2 more to level up your overall!");
             }
-            else if (weaponsfound == 3)
+            else if (weaponsfound == 3 && points == 30)
             {
-                MessageBox.Show("You have found your third weapon! You have obtained the Worship Sword! +26 Points, your Weapon is level 26, find 1 more to level up your overall!");
+                MessageBox.Show("You have found your third weapon! You have obtained the Worship Sword! +26 Points, Your points are at 30! Your Weapon is level 26, find 1 more to level up your overall!");
             }
-            else if (weaponsfound == 4)
+            else if (weaponsfound == 4 && points == 40)
             {
                 MessageBox.Show("W! Congrats, you are now an equipped Assassin! You the Worship Sword! +26 Points, your Weapon is level 26. This Sword can conquer all of the world! Hope to See you on the field soon Assassin!");
                 Application.Exit();
@@ -147,11 +152,11 @@ namespace WindowsFormsApp1
             armourfound = armourfound + 1;
             if (armourfound == 11)
             {
-                MessageBox.Show("You have found your very first piece of armour! You have obtained the The Wolf's Helm! +10 Points, your Armour is level 10, find more to level up! One More to go!");
+                MessageBox.Show("You have found your very first piece of armour! You have obtained the The Wolf's Helm! Your Armour is level 10, find one more to level up your armour!");
             }
             else if (armourfound == 12)
             {
-                MessageBox.Show("You have obtained The rare Wolf's Helm! You have found all the armour!");
+                MessageBox.Show("You have obtained The rare Wolf's Helm! You have now found all the armour!");
             }
 
         }
@@ -185,11 +190,11 @@ namespace WindowsFormsApp1
             armourfound = armourfound + 1;
             if (armourfound == 11)
             {
-                MessageBox.Show("You have found your very first piece of armour! You have obtained the The Mercenary Hood! +24 Points, your Armour is level 24, The next Armour piece is level 10, one more to find!");
+                MessageBox.Show("You have found your very first piece of armour! You have obtained the The Mercenary Hood! Your Armour is level 24, The next Armour piece is level 10, find the last piece to level up your armour!");
             }
             else if (armourfound == 12)
             {
-                MessageBox.Show("You have obtained The Mercenary Hood!! You have found all the armour!");
+                MessageBox.Show("You have obtained The Mercenary Hood!! You have now found all the armour!");
             }
         }
 
