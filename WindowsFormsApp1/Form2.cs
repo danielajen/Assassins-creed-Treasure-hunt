@@ -31,6 +31,7 @@ namespace WindowsFormsApp1
             if (weaponsfound == 1 && points == 10)
             {
                 MessageBox.Show("You have found your first weapon! You obtained a Swift Slayer +10 Points. Your points are at 10! This is an essential weapon, find 3 more to level up your overall!");
+                
             }
             else if (weaponsfound == 2 && points == 20)
             {
@@ -79,14 +80,17 @@ namespace WindowsFormsApp1
             if (weaponsfound == 1 && points == 10)
             {
                 MessageBox.Show("You have found your very first weapon! You have obtained Nikolaos's Sword! You're now at 10 points! your Weapon is level 10, find 3 more to level up your overall!");
+                label2.Text = points.ToString();
             }
             else if (weaponsfound == 2 && points == 20)
             {
                 MessageBox.Show("You have found your second weapon! You have obtained Nikolaos's Sword! Your points are at 20! your Weapon is level 10, find 2 more to level up your overall!");
+                label2.Text = points.ToString();
             }
             else if (weaponsfound == 3 && points == 30)
             {
                 MessageBox.Show("You have found your third weapon! You have obtained Nikolaos's Sword! Your points are at 30! your Weapon is level 10, find 1 more to level up your overall!");
+                label2.Text = points.ToString();
             }
             else if (weaponsfound == 4 && points == 40)
             {
@@ -104,14 +108,17 @@ namespace WindowsFormsApp1
             if (weaponsfound == 1 && points == 10)
             {
                 MessageBox.Show("You have found your very first weapon! You have obtained the Legendary Drinker of Light! Your points are at 10! Your Weapon is level 23, find 3 more to level up your overall!");
+                label2.Text = points.ToString();
             }
             else if (weaponsfound == 2 && points == 20)
             {
                 MessageBox.Show("You have found your second weapon! You have obtained the Legendary Drinker of Light! Your points are now at 20! your Weapon is level 23, find 2 more to level up your overall!");
+                label2.Text = points.ToString();
             }
             else if (weaponsfound == 3 && points == 30)
             {
                 MessageBox.Show("You have found your third weapon! You have obtained the Legendary Drinker of Light! Your points are now at 30! your Weapon is level 23, find 1 more to level up your overall!");
+                label2.Text = points.ToString();
             }
             else if (weaponsfound == 4 && points == 40)
             {
@@ -129,14 +136,17 @@ namespace WindowsFormsApp1
             if (weaponsfound == 1 && points == 10)
             {
                 MessageBox.Show("You have found your very first weapon! You have obtained the Worship Sword! Your Weapon is level 26, Your points are at 10! Find 3 more to level up your overall!");
+                label2.Text = points.ToString();
             }
             else if (weaponsfound == 2 && points == 20)
             {
                 MessageBox.Show("You have found your second weapon! You have obtained the Worship Sword! +26 Points, Your points are at 20! Your Weapon is level 26, find 2 more to level up your overall!");
+                label2.Text = points.ToString();
             }
             else if (weaponsfound == 3 && points == 30)
             {
                 MessageBox.Show("You have found your third weapon! You have obtained the Worship Sword! +26 Points, Your points are at 30! Your Weapon is level 26, find 1 more to level up your overall!");
+                label2.Text = points.ToString();
             }
             else if (weaponsfound == 4 && points == 40)
             {
@@ -153,10 +163,12 @@ namespace WindowsFormsApp1
             if (armourfound == 11)
             {
                 MessageBox.Show("You have found your very first piece of armour! You have obtained the The Wolf's Helm! Your Armour is level 10, find one more to level up your armour!");
+                label2.Text = points.ToString();
             }
             else if (armourfound == 12)
             {
                 MessageBox.Show("You have obtained The rare Wolf's Helm! You have now found all the armour!");
+                label2.Text = points.ToString();
             }
 
         }
@@ -191,10 +203,12 @@ namespace WindowsFormsApp1
             if (armourfound == 11)
             {
                 MessageBox.Show("You have found your very first piece of armour! You have obtained the The Mercenary Hood! Your Armour is level 24, The next Armour piece is level 10, find the last piece to level up your armour!");
+                label2.Text = points.ToString();
             }
             else if (armourfound == 12)
             {
                 MessageBox.Show("You have obtained The Mercenary Hood!! You have now found all the armour!");
+                label2.Text = points.ToString();
             }
         }
 
@@ -218,7 +232,12 @@ namespace WindowsFormsApp1
                 Application.Exit();
             }
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
+    }
     }
     
  

@@ -33,5 +33,10 @@ namespace WindowsFormsApp1
         {
             MessageBox.Show("Find & Build Your Own Weapons as an Assassin, Upgrade them by Clicking The Hidden Weapons and Armour. But Watch Out for the Enemies! They'll decrease your lives. YOU ONLY HAVE THREE LIVES! Be Wise Young Assassin. Everything is Permited...");
         }
+
+        private void buttonexit_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
