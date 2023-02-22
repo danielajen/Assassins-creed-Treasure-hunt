@@ -16,10 +16,14 @@ namespace WindowsFormsApp1
         int armourfound = 10;
         int lives = 3;
         int points = 0;
-
+        string[] newpics = { "Win", "2Win", "3Win", "Lose", "4Win", "5Win", "6Win", "7Win", "8Win", "9Win", "10Win" };
+        string[] mix = new string[12];
+        int ctr = 0;
+        Random box = new Random();
         public Form2()
         {
             InitializeComponent();
+            ;
         }
 
         private void PictureBox1_Click(object sender, EventArgs e)
@@ -236,6 +240,49 @@ namespace WindowsFormsApp1
         private void button1_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void Form2_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void change(object sender, EventArgs e)
+        {
+            PictureBox picked = (PictureBox)sender; // wherever sent
+            char[] pic_name = picked.Name.ToCharArray();
+            int numinbox = int.Parse(pic_name[1].ToString());
+            if((mix[numinbox]) == "Win") 
+            {
+                picked = pictureBox1;
+            }
+            else if ((mix[numinbox]) == "2Win")
+            {
+                picked = pictureBox2;
+            }
+            if ((mix[numinbox]) == "Lose")
+            {
+                picked = pictureBox3;
+            }
+            else if ((mix[numinbox]) == "3Win")
+            {
+                picked = pictureBox4;
+            }
+        }
+
+        private void Form2_Load_1(object sender, EventArgs e)
+        { 
+            while (ctr<12)
+            {
+                int num = box.Next(0, 13);
+
+                if (newpics[num] != "gone")
+                {
+                    mix[ctr] = newpics[num];
+                    newpics[num] = "gone";
+                    ctr++;
+                }
+            }
         }
     }
     }
