@@ -272,9 +272,9 @@ namespace WindowsFormsApp1
 
         private void Form2_Load_1(object sender, EventArgs e)
         { 
-            while (ctr<12)
+            while (ctr<10)
             {
-                int num = box.Next(0, 13);
+                int num = box.Next(0, 10);
 
                 if (newpics[num] != "gone")
                 {
