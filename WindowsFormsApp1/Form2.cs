@@ -26,8 +26,9 @@ namespace WindowsFormsApp1
             ;
         }
 
-        void allweaponsfound()
+        void allweaponsfound(PictureBox picked)
         {
+            picked.Image = Properties.Resources._956786e336963eb14405e52bf535408b;
             weaponsfound = weaponsfound + 1;
             points = points + 10;
             if (weaponsfound == 1 && points == 10)
@@ -52,8 +53,11 @@ namespace WindowsFormsApp1
             }
         }
 
-        void allenemy()
+        void allenemy(PictureBox picked)
         {
+            PictureBox[] hearts = { pictureBox10, pictureBox11, pictureBox12 };
+
+            picked.Image = Properties.Resources.brute;
             lives = lives - 1;
             if (p10.Visible == false && lives ==2)
             {
@@ -72,10 +76,11 @@ namespace WindowsFormsApp1
 
 
 
-        void armour()
+        void armour(PictureBox picked)
         {
+            
             // 8th box LAST PIECE OF ARMOUR
-            p08.Image = Properties.Resources.eaaf917e116f1058aefe5ce3f7e4f8cb;
+            picked.Image = Properties.Resources.eaaf917e116f1058aefe5ce3f7e4f8cb;
             armourfound = armourfound + 1;
             if (armourfound == 11)
             {
@@ -120,16 +125,16 @@ namespace WindowsFormsApp1
             {
                 case "Lose":
                     picked.BackgroundImage = Properties.Resources.enemy1;
-                    allenemy();
+                    allenemy(picked);
                     break;
 
                 case "Win":
                     picked.BackgroundImage = Properties.Resources._83e24cdf4e16d78ab312689945e0922c;
-                    allweaponsfound();
+                    allweaponsfound(picked);
                     break;
                 case "Armour":
                     picked.BackgroundImage = Properties.Resources.eaaf917e116f1058aefe5ce3f7e4f8cb;
-                    armour();
+                    armour(picked);
                     break;
 
             }
