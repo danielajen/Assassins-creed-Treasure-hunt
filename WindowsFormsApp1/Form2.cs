@@ -16,8 +16,8 @@ namespace WindowsFormsApp1
         int armourfound = 10;
         int lives = 3;
         int points = 0;
-        string[] newpics = { "Win", "2Win", "3Win", "Lose", "4Win", "5Win", "6Win", "7Win", "8Win", "9Win", "10Win" };
-        string[] mix = new string[12];
+        string[] newpics = { "Win", "Win", "Win", "Lose", "Lose", "Lose", "Lose", "Lose", "Lose", "Lose", "Lose", "Lose", "Lose", "Lose", "Lose", "Lose" };
+        string[] mix = new string[16];
         int ctr = 0;
         Random box = new Random();
         public Form2()
@@ -26,87 +26,8 @@ namespace WindowsFormsApp1
             ;
         }
 
-        private void PictureBox1_Click(object sender, EventArgs e)
+        void allweaponsfound()
         {
-            // first box 1ST WEAPON
-            pictureBox1.Image = Properties.Resources.bebcae4035dd853fea00368f46538ec1;
-            weaponsfound = weaponsfound + 1;
-            points = points + 10;
-            if (weaponsfound == 1 && points == 10)
-            {
-                MessageBox.Show("You have found your first weapon! You obtained a Swift Slayer +10 Points. Your points are at 10! This is an essential weapon, find 3 more to level up your overall!");
-                
-            }
-            else if (weaponsfound == 2 && points == 20)
-            {
-                MessageBox.Show("You have found your second weapon! You obtained a Swift Slayer +10 Points. Your points are at 20! This is an essential weapon, find 2 more to level up your overall!");
-            }
-            else if (weaponsfound == 3 && points == 30)
-            {
-                MessageBox.Show("You have found your third weapon! You obtained a Swift Slayer +10 Points. Your points are at 30! This is an essential weapon, find 1 more to level up your overall!");
-            }
-            else if (weaponsfound == 4 && points == 40)
-            {
-                MessageBox.Show("W! Congrats, you are now an equipped Assassin! You obtained a Swift Slayer. This is an essential weapon for battles, that's why their is no designated level for it. Hope to See you on the field soon Assassin!");
-                Application.Exit();
-            }
-        }
-
-        private void PictureBox2_Click(object sender, EventArgs e)
-        {
-            // second box ENEEMY
-            pictureBox2.Image = Properties.Resources.brute;
-            pictureBox10.Visible = false;
-            lives = lives - 1;
-            if (pictureBox10.Visible == false && lives ==2)
-            {
-                MessageBox.Show("You have hit a brute enemey! - 1 Life... BE CAREFUL YOUNG ASSASSIN, you have two more lives...");
-            }
-            else if (pictureBox10.Visible == false && lives == 1)
-            {
-                MessageBox.Show("You have hit a brute enemey! - 1 Life... HANG IN THERE! You have one more life left...");
-            }
-            else if (pictureBox10.Visible == false && lives == 0)
-            {
-                MessageBox.Show("You have hit a brute enemey! You Lost... You failed me young assassin...");
-                Application.Exit();
-            }
-        }
-
-
-
-        private void pictureBox3_Click(object sender, EventArgs e)
-        {
-            // third box 2ND WEAPON
-            pictureBox3.Image = Properties.Resources._956786e336963eb14405e52bf535408b;
-            weaponsfound = weaponsfound + 1;
-            points = points + 10;
-            if (weaponsfound == 1 && points == 10)
-            {
-                MessageBox.Show("You have found your very first weapon! You have obtained Nikolaos's Sword! You're now at 10 points! your Weapon is level 10, find 3 more to level up your overall!");
-                label2.Text = points.ToString();
-            }
-            else if (weaponsfound == 2 && points == 20)
-            {
-                MessageBox.Show("You have found your second weapon! You have obtained Nikolaos's Sword! Your points are at 20! your Weapon is level 10, find 2 more to level up your overall!");
-                label2.Text = points.ToString();
-            }
-            else if (weaponsfound == 3 && points == 30)
-            {
-                MessageBox.Show("You have found your third weapon! You have obtained Nikolaos's Sword! Your points are at 30! your Weapon is level 10, find 1 more to level up your overall!");
-                label2.Text = points.ToString();
-            }
-            else if (weaponsfound == 4 && points == 40)
-            {
-                MessageBox.Show("W! Congrats, you are now an equipped Assassin! You obtained Nikolaos's Sword. This Sword can do a lot of damage to enemies (+275%)! Hope to See you on the field soon Assassin!");
-                Application.Exit();
-            }
-        }
-
-        private void pictureBox4_Click(object sender, EventArgs e)
-        {
-            // fourth box THIRD WEAPON
-            pictureBox4.Image = Properties.Resources._83e24cdf4e16d78ab312689945e0922c;
             weaponsfound = weaponsfound + 1;
             points = points + 10;
             if (weaponsfound == 1 && points == 10)
@@ -131,78 +52,30 @@ namespace WindowsFormsApp1
             }
         }
 
-        private void pictureBox5_Click_1(object sender, EventArgs e)
+        void allenemy()
         {
-            // fifth box FOURTH WEAPON
-            pictureBox5.Image = Properties.Resources._99f9eeafd86b05c597a1ef3ee61d3c21__1_;
-            weaponsfound = weaponsfound + 1;
-            points = points + 10;
-            if (weaponsfound == 1 && points == 10)
-            {
-                MessageBox.Show("You have found your very first weapon! You have obtained the Worship Sword! Your Weapon is level 26, Your points are at 10! Find 3 more to level up your overall!");
-                label2.Text = points.ToString();
-            }
-            else if (weaponsfound == 2 && points == 20)
-            {
-                MessageBox.Show("You have found your second weapon! You have obtained the Worship Sword! +26 Points, Your points are at 20! Your Weapon is level 26, find 2 more to level up your overall!");
-                label2.Text = points.ToString();
-            }
-            else if (weaponsfound == 3 && points == 30)
-            {
-                MessageBox.Show("You have found your third weapon! You have obtained the Worship Sword! +26 Points, Your points are at 30! Your Weapon is level 26, find 1 more to level up your overall!");
-                label2.Text = points.ToString();
-            }
-            else if (weaponsfound == 4 && points == 40)
-            {
-                MessageBox.Show("W! Congrats, you are now an equipped Assassin! You the Worship Sword! +26 Points, your Weapon is level 26. This Sword can conquer all of the world! Hope to See you on the field soon Assassin!");
-                Application.Exit();
-            }
-        }
-
-        private void pictureBox6_Click_1(object sender, EventArgs e)
-        {
-            // 6ixth box 1ST ARMOUR
-            pictureBox6.Image = Properties.Resources.bbd22d3eed8a78e10c683ebc79eb317c;
-            armourfound = armourfound + 1;
-            if (armourfound == 11)
-            {
-                MessageBox.Show("You have found your very first piece of armour! You have obtained the The Wolf's Helm! Your Armour is level 10, find one more to level up your armour!");
-                label2.Text = points.ToString();
-            }
-            else if (armourfound == 12)
-            {
-                MessageBox.Show("You have obtained The rare Wolf's Helm! You have now found all the armour!");
-                label2.Text = points.ToString();
-            }
-
-        }
-
-        private void pictureBox7_Click(object sender, EventArgs e)
-        {
-            // 7th box HOT ENEMY
-            pictureBox7.Image = Properties.Resources.cleopatra;
-            pictureBox11.Visible = false;
             lives = lives - 1;
-            if (pictureBox11.Visible == false && lives == 2)
+            if (p10.Visible == false && lives ==2)
             {
-                MessageBox.Show("You have attacked Queen Nefertiti! -1 Life, stay strong young Assassin. You have two more lives...");
+                MessageBox.Show("You have hit a brute enemey! - 1 Life... BE CAREFUL YOUNG ASSASSIN, you have two more lives...");
             }
-            else if (pictureBox11.Visible == false && lives == 1)
+            else if (p11.Visible == false && lives == 1)
             {
-                MessageBox.Show("You have attacked Queen Nefertiti! -1 Life, Hang in there Young Assassin. You have one more life left... ");
+                MessageBox.Show("You have hit a brute enemey! - 1 Life... HANG IN THERE! You have one more life left...");
             }
-            else if (pictureBox11.Visible == false && lives == 0)
+            else if (p12.Visible == false && lives == 0)
             {
-                MessageBox.Show("You have attacked Queen Nefertiti! You Lost... You failed me young assassin...");
+                MessageBox.Show("You have hit a brute enemey! You Lost... You failed me young assassin...");
                 Application.Exit();
-
             }
         }
 
-        private void pictureBox8_Click(object sender, EventArgs e)
+
+
+        void armour()
         {
             // 8th box LAST PIECE OF ARMOUR
-            pictureBox8.Image = Properties.Resources.eaaf917e116f1058aefe5ce3f7e4f8cb;
+            p08.Image = Properties.Resources.eaaf917e116f1058aefe5ce3f7e4f8cb;
             armourfound = armourfound + 1;
             if (armourfound == 11)
             {
@@ -216,65 +89,18 @@ namespace WindowsFormsApp1
             }
         }
 
-        private void pictureBox9_Click(object sender, EventArgs e)
-        {
-            // 9th box LAST ENEMEY
-            pictureBox9.Image = Properties.Resources._484066907_preview_Seeker;
-            pictureBox12.Visible = false;
-            lives = lives - 1;
-            if (pictureBox12.Visible == false && lives == 2)
-            {
-                MessageBox.Show("You have attacked a Gate Keeper Guard! -1 Life, stay strong young Assassin. You have two more lives...");
-            }
-            else if (pictureBox12.Visible == false && lives == 1)
-            {
-                MessageBox.Show("You have attacked a Gate Keeper Guard! -1 Life, Hang in there Young Assassin. You have one more life left... ");
-            }
-            else if (pictureBox12.Visible == false && lives == 0)
-            {
-                MessageBox.Show("You have attacked a Gate Keeper Guard! You Lost... You failed me young assassin...");
-                Application.Exit();
-            }
-        }
-
         private void button1_Click(object sender, EventArgs e)
         {
             this.Close();
         }
 
-        private void Form2_Load(object sender, EventArgs e)
-        {
 
-        }
-
-        private void change(object sender, EventArgs e)
-        {
-            PictureBox picked = (PictureBox)sender; // wherever sent
-            char[] pic_name = picked.Name.ToCharArray();
-            int numinbox = int.Parse(pic_name[1].ToString());
-            if((mix[numinbox]) == "Win") 
-            {
-                picked = pictureBox1;
-            }
-            else if ((mix[numinbox]) == "2Win")
-            {
-                picked = pictureBox2;
-            }
-            if ((mix[numinbox]) == "Lose")
-            {
-                picked = pictureBox3;
-            }
-            else if ((mix[numinbox]) == "3Win")
-            {
-                picked = pictureBox4;
-            }
-        }
 
         private void Form2_Load_1(object sender, EventArgs e)
         { 
-            while (ctr<10)
+            while (ctr < mix.Length)
             {
-                int num = box.Next(0, 10);
+                int num = box.Next(0, mix.Length);
 
                 if (newpics[num] != "gone")
                 {
@@ -282,6 +108,30 @@ namespace WindowsFormsApp1
                     newpics[num] = "gone";
                     ctr++;
                 }
+            }
+        }
+
+        private void changestuff(object sender, EventArgs e)
+        {
+            PictureBox picked = (PictureBox)sender;
+            char[] pic_name = picked.Name.ToCharArray();
+            int num_in_name = int.Parse(pic_name[1].ToString() + pic_name[2]);
+            switch (mix[num_in_name])
+            {
+                case "Lose":
+                    picked.BackgroundImage = Properties.Resources.enemy1;
+                    allenemy();
+                    break;
+
+                case "Win":
+                    picked.BackgroundImage = Properties.Resources._83e24cdf4e16d78ab312689945e0922c;
+                    allweaponsfound();
+                    break;
+                case "Armour":
+                    picked.BackgroundImage = Properties.Resources.eaaf917e116f1058aefe5ce3f7e4f8cb;
+                    armour();
+                    break;
+
             }
         }
     }
